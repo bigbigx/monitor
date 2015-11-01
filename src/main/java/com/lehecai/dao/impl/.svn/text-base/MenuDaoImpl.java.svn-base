@@ -1,0 +1,11 @@
+package sun.dao.impl;
+
+import org.springframework.stereotype.Repository;
+
+import sun.dao.MenuDaoI;
+import sun.model.Tmenu;
+
+@Repository("menuDao")
+public class MenuDaoImpl extends BaseDaoImpl<Tmenu> implements MenuDaoI {
+	
+}

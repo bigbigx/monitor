@@ -1,0 +1,6 @@
+[ERROR][2015-08-14 13:53:44,688][com.lehecai.conf.TerminalType]Result for Value = 6 not defind
+java.lang.RuntimeException: Result for Value = 6 not defind
+	at com.lehecai.conf.IntegerBeanLabelItem.getResult(IntegerBeanLabelItem.java:19)
+	at com.lehecai.conf.TerminalType.getItem(TerminalType.java:43)
+	at sun.GetName.getTerminalIdName(GetName.java:12)
+	at sun.GetName.main(GetName.java:22)

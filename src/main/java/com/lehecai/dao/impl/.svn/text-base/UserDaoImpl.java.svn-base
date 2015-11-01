@@ -1,0 +1,11 @@
+package sun.dao.impl;
+
+import org.springframework.stereotype.Repository;
+import sun.dao.UserDaoI;
+import sun.model.Tuser;
+
+@Repository("userDao")
+public class UserDaoImpl extends BaseDaoImpl<Tuser> implements UserDaoI {
+
+
+}

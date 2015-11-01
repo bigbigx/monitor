@@ -1,0 +1,19 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<script type="text/javascript">
+	$(function(){
+		$('#admin_yhgl_datagrid').datagrid({
+			fit:true,
+			border:false,
+		    url:'${pageContext.request.contextPath}/userAction!datagrid.action',
+		    columns:[[
+		        {field:'id',title:'编号',width:150},
+		        {field:'name',title:'名称',width:150},
+		        {field:'pwd',title:'密码',width:150},
+		        {field:'createdatetime',title:'创建时间',width:150},
+		        {field:'modifydatetime',title:'修改时间',width:150},
+		    ]]
+		});
+	});
+</script>
+
+<table id="admin_yhgl_datagrid" ></table>
